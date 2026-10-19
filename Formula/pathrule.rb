@@ -4,27 +4,27 @@
 class Pathrule < Formula
   desc "The knowledge layer for coding agents"
   homepage "https://pathrule.io"
-  version "1.0.4"
+  version "1.0.5"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://releases.pathrule.io/cli/1.0.4/pathrule-cli-1.0.4-darwin-arm64.tar.gz"
-      sha256 "871cc9603a3d0a69441312dd16e027d22bfdce21cb7b976e9f08691ce58edeaf"
+      url "https://releases.pathrule.io/cli/1.0.5/pathrule-cli-1.0.5-darwin-arm64.tar.gz"
+      sha256 "6500dd1f6d66a9f88f12d4a8da629af611ed7d857cf1338473c2911e1f906f3e"
     end
     on_intel do
-      url "https://releases.pathrule.io/cli/1.0.4/pathrule-cli-1.0.4-darwin-x64.tar.gz"
-      sha256 "4f7a29c275eb1396e864fe1aeccd1746810318b7c651fdc2ff353ffe411d1635"
+      url "https://releases.pathrule.io/cli/1.0.5/pathrule-cli-1.0.5-darwin-x64.tar.gz"
+      sha256 "32ce576c2a7020f6b1c0a8a2045d052886fb72f89afd92d6ba1f1a6675a61000"
     end
   end
   on_linux do
     on_arm do
-      url "https://releases.pathrule.io/cli/1.0.4/pathrule-cli-1.0.4-linux-arm64.tar.gz"
-      sha256 "33989ec9319ed03307cce31cd54860d7ed72ae5b63e2fa302e6e9557bf25e2ca"
+      url "https://releases.pathrule.io/cli/1.0.5/pathrule-cli-1.0.5-linux-arm64.tar.gz"
+      sha256 "2f959bc199c74c5f3ebb668990e3d802c77ebea2907c96a640bb31152d6134bf"
     end
     on_intel do
-      url "https://releases.pathrule.io/cli/1.0.4/pathrule-cli-1.0.4-linux-x64.tar.gz"
-      sha256 "41d320815277ca0d56d5eb93c52cc53dba071372338c91878ebb6666fff09317"
+      url "https://releases.pathrule.io/cli/1.0.5/pathrule-cli-1.0.5-linux-x64.tar.gz"
+      sha256 "7deb07537999d93cf34f4bac4b5b3a1c6de9e866ea31f019f80de33ed2ed43b6"
     end
   end
 
